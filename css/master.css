@@ -1,4 +1,38 @@
+#Header{
+  background-color: #103565;
+  text-align: center;
+}
+
+#titleHeader{
+  color: white;
+}
+
 body{
+  background-image: url("../Picture/Back.jpeg");
+  background-repeat: no-repeat;
+}
+
+#ph3{
+  font-weight: 300;
+}
+
+#Test {
+  font-style: italic;
+}
+
+#Stages {
+  background-color: white;
+}
+
+#Formations{
   background-color: blue;
-  background-size: 100%;
+}
+
+#Competences{
+
+
+}
+
+#centreInteret{
+
 }

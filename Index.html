@@ -1,15 +1,43 @@
 <!doctype html>
-<html ng-app>
+<html>
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/master.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-animate.js"></script>
     <title>CV Guibert Vincent</title>
   </head>
   <body>
-    <div ng-model>
-      <h1>Hello tout my CV buddy</h1>
-      <p> On commence </p>
+    <div id="Header">
+      <h1 id="titleHeader">Site CV de Guibert Vincent</h1>
+    </div>
+    <script src="Controllers/MainViewControllers.js"></script>
+    <div id="All" ng-app="myCtrl" ng-controller="CommonCtrl">
+      <div id="Stages">
+        <h2>Stages Professionels</h2></br>
+        <p>Mai - Juillet 2017</p>
+        <p><h3>Développeur</h3>Application mobile (panga) - La rochelle (17) </p>
+        <p> Création d'une IHM pour une application PPMS dans les écoles.</p>
+        <p> Langages / Logiciel: Javascript - HTML - CSS - GitHub - Framework AngularJS </p>
+        <button ng-click="showFunction()"> Plus d'information </button>
+        <div ng-show="showMe" ng-include="'Pages/Stages.html'"></div>
+      </div>
+      <div id="Formations">
+        <h2>Stages Professionels</h2></br>
+        <p>Mai - Juillet 2017</p>
+        <p><h3>Développeur</h3>Application mobile (panga) - La rochelle (17) </p>
+        <p> Création d'une IHM pour une application PPMS dans les écoles.</p>
+        <p> Langages / Logiciel: Javascript - HTML - CSS - GitHub - Framework AngularJS </p>
+        <button ng-click="showFunction2()"> Plus d'information </button>
+        <div ng-show="showMe2" ng-include="'Pages/Formations.html'"></div>
+      </div>
+      <div id="Competences">
+
+      </div>
+      <div id="centreInteret">
+        <button ng-click="showFunction3()"> Plus d'information </button>
+        <div ng-show="showMe3" ng-include="'Pages/centreInteret.html'"></div>
+      </div>
     </div>
   </body>
 </html>
