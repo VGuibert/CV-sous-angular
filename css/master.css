@@ -8,8 +8,7 @@
 }
 
 body{
-  background-image: url("../Picture/Back.jpeg");
-  background-repeat: no-repeat;
+
 }
 
 #ph3{
@@ -20,12 +19,18 @@ body{
   font-style: italic;
 }
 
+#ButtonPropos {
+  text-align: right;
+  position: relative;
+  right: 40px;
+}
+
 #Stages {
-  background-color: white;
+
 }
 
 #Formations{
-  background-color: blue;
+  background-color: #3F4FBF;
 }
 
 #Competences{
@@ -34,5 +39,5 @@ body{
 }
 
 #centreInteret{
-
+  background-color: #aaaaaa;
 }

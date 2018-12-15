@@ -14,29 +14,16 @@
     <script src="Controllers/MainViewControllers.js"></script>
     <div id="All" ng-app="myCtrl" ng-controller="CommonCtrl">
       <div id="Stages">
-        <h2>Stages Professionels</h2></br>
-        <p>Mai - Juillet 2017</p>
-        <p><h3>Développeur</h3>Application mobile (panga) - La rochelle (17) </p>
-        <p> Création d'une IHM pour une application PPMS dans les écoles.</p>
-        <p> Langages / Logiciel: Javascript - HTML - CSS - GitHub - Framework AngularJS </p>
-        <button ng-click="showFunction()"> Plus d'information </button>
-        <div ng-show="showMe" ng-include="'Pages/Stages.html'"></div>
+        <div ng-include="'Pages/Stages.html'"></div>
       </div>
       <div id="Formations">
-        <h2>Stages Professionels</h2></br>
-        <p>Mai - Juillet 2017</p>
-        <p><h3>Développeur</h3>Application mobile (panga) - La rochelle (17) </p>
-        <p> Création d'une IHM pour une application PPMS dans les écoles.</p>
-        <p> Langages / Logiciel: Javascript - HTML - CSS - GitHub - Framework AngularJS </p>
-        <button ng-click="showFunction2()"> Plus d'information </button>
-        <div ng-show="showMe2" ng-include="'Pages/Formations.html'"></div>
+        <div ng-include="'Pages/Formations.html'"></div>
       </div>
       <div id="Competences">
-
+        <div ng-include="'Pages/Competences.html'"></div>
       </div>
       <div id="centreInteret">
-        <button ng-click="showFunction3()"> Plus d'information </button>
-        <div ng-show="showMe3" ng-include="'Pages/centreInteret.html'"></div>
+        <div ng-include="'Pages/centreInteret.html'"></div>
       </div>
     </div>
   </body>
